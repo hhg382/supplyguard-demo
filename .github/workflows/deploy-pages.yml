@@ -27,7 +27,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir -p _site/data
-          cp index.html v1.html .nojekyll _site/
+          cp index.html v1.html 404.html README.md .nojekyll _site/
           cp data/supplyguard-live.json _site/data/
       - uses: actions/upload-pages-artifact@v4
         with:
