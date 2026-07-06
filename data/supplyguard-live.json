@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-06T15:10:54Z",
+  "generatedAt": "2026-07-06T15:15:17Z",
   "summary": "LIVE_API_PARTIAL",
   "connectionMode": "server-side GitHub Actions refresh",
   "secretHandling": "API key is used only in the refresh job; public JSON and browser code do not contain the key.",
