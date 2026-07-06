@@ -8,20 +8,20 @@
     :root{--brand:#7c3aed;--ink:#17202a;--muted:#4b5563;--line:#d8dee9;--surface:#f7f9fc;--paper:#ffffff;--good:#0f766e;--warn:#b45309;--bad:#b91c1c}
     *{box-sizing:border-box} body{margin:0;font-family:Inter,Apple SD Gothic Neo,Segoe UI,sans-serif;color:var(--ink);background:#f3f6fb;line-height:1.45;letter-spacing:0}
     button,input,select{font:inherit} button{border:0;border-radius:8px;background:var(--brand);color:#fff;min-height:44px;padding:0 14px;font-weight:700;cursor:pointer} button.secondary{background:#e8eef7;color:var(--ink)} button.ghost{background:transparent;color:var(--brand);border:1px solid var(--line)} button:active{transform:scale(.97)}
-    .app{display:grid;grid-template-columns:248px minmax(0,1fr);min-height:100vh}.side{background:#111827;color:#fff;padding:20px;position:sticky;top:0;height:100vh}.brand{font-size:22px;font-weight:800;margin-bottom:8px}.mock{font-size:12px;color:#fcd34d;margin-bottom:20px}.nav{display:grid;gap:8px}.nav button{justify-content:flex-start;background:transparent;color:#dbeafe;text-align:left}.nav button.active{background:rgba(255,255,255,.13);color:#fff}.main{min-width:0;padding:24px;display:grid;gap:18px}.top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.title h1{font-size:26px;margin:0 0 6px}.title p{margin:0;color:var(--muted);max-width:980px}.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}.panel{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:16px;min-width:0}.span-3{grid-column:span 3}.span-4{grid-column:span 4}.span-5{grid-column:span 5}.span-6{grid-column:span 6}.span-7{grid-column:span 7}.span-8{grid-column:span 8}.span-12{grid-column:span 12}.kpi{display:grid;gap:4px}.kpi strong{font-size:23px}.label{font-size:12px;color:var(--muted);font-weight:700} .bar{height:9px;border-radius:8px;background:#e5e7eb;overflow:hidden}.bar span{display:block;height:100%;background:var(--brand);width:30%}.form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.field{display:grid;gap:5px}.field label{font-size:12px;color:var(--muted);font-weight:700}.field input,.field select{width:100%;min-height:44px;border:1px solid var(--line);border-radius:8px;padding:8px 10px;background:#fff}.actions{display:flex;flex-wrap:wrap;gap:8px}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:8px}table{border-collapse:collapse;width:100%;min-width:720px;background:#fff}th,td{padding:10px;border-bottom:1px solid var(--line);text-align:left;font-size:14px}th{background:#f8fafc;color:#334155;position:sticky;top:0}tr.selected{background:#edf8ff}.report{white-space:pre-wrap;background:#0f172a;color:#e5e7eb;border-radius:8px;padding:14px;min-height:260px;overflow:auto}.source-list{display:grid;gap:8px}.source{border:1px solid var(--line);border-radius:8px;padding:10px;background:#fbfdff}.chip{display:inline-flex;align-items:center;min-height:28px;border:1px solid var(--line);border-radius:999px;padding:0 10px;background:#fff;color:var(--muted);font-size:12px;margin:2px}.mobilebar{display:none}.status-good{color:var(--good)}.status-warn{color:var(--warn)}.status-bad{color:var(--bad)}
-    @media(max-width:767px){.app{display:block}.side{display:none}.main{padding:14px 14px 82px}.top{display:grid}.title h1{font-size:21px}.grid{grid-template-columns:1fr}.span-3,.span-4,.span-5,.span-6,.span-7,.span-8,.span-12{grid-column:span 1}.form{grid-template-columns:1fr}table{min-width:620px}.mobilebar{display:flex;position:fixed;bottom:0;left:0;right:0;background:rgba(255,255,255,.94);backdrop-filter:blur(18px);border-top:1px solid var(--line);padding:8px;gap:6px;z-index:5}.mobilebar button{flex:1;min-height:50px;padding:0 6px;font-size:12px}.actions button{flex:1 1 140px}.panel{padding:14px}}
+    .app{display:grid;grid-template-columns:248px minmax(0,1fr);min-height:100vh}.side{background:#111827;color:#fff;padding:20px;position:sticky;top:0;height:100vh}.brand{font-size:22px;font-weight:800;margin-bottom:8px}.live-note{font-size:12px;color:#a7f3d0;margin-bottom:20px}.nav{display:grid;gap:8px}.nav button{justify-content:flex-start;background:transparent;color:#dbeafe;text-align:left}.nav button.active{background:rgba(255,255,255,.13);color:#fff}.main{min-width:0;padding:24px;display:grid;gap:18px}.top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.title h1{font-size:26px;margin:0 0 6px}.title p{margin:0;color:var(--muted);max-width:980px}.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}.panel{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:16px;min-width:0}.live-panel{border-color:#99f6e4;background:#f0fdfa}.live-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:10px}.live-card{border:1px solid #99f6e4;border-radius:8px;background:#fff;padding:10px;overflow-wrap:anywhere}.live-card strong{display:block}.span-3{grid-column:span 3}.span-4{grid-column:span 4}.span-5{grid-column:span 5}.span-6{grid-column:span 6}.span-7{grid-column:span 7}.span-8{grid-column:span 8}.span-12{grid-column:span 12}.kpi{display:grid;gap:4px}.kpi strong{font-size:23px}.label{font-size:12px;color:var(--muted);font-weight:700} .bar{height:9px;border-radius:8px;background:#e5e7eb;overflow:hidden}.bar span{display:block;height:100%;background:var(--brand);width:30%}.form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.field{display:grid;gap:5px}.field label{font-size:12px;color:var(--muted);font-weight:700}.field input,.field select{width:100%;min-height:44px;border:1px solid var(--line);border-radius:8px;padding:8px 10px;background:#fff}.actions{display:flex;flex-wrap:wrap;gap:8px}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:8px}table{border-collapse:collapse;width:100%;min-width:720px;background:#fff}th,td{padding:10px;border-bottom:1px solid var(--line);text-align:left;font-size:14px}th{background:#f8fafc;color:#334155;position:sticky;top:0}tr.selected{background:#edf8ff}.report{white-space:pre-wrap;background:#0f172a;color:#e5e7eb;border-radius:8px;padding:14px;min-height:260px;overflow:auto}.source-list{display:grid;gap:8px}.source{border:1px solid var(--line);border-radius:8px;padding:10px;background:#fbfdff;overflow-wrap:anywhere}.source a{overflow-wrap:anywhere;word-break:break-word}.chip{display:inline-flex;align-items:center;min-height:28px;border:1px solid var(--line);border-radius:999px;padding:0 10px;background:#fff;color:var(--muted);font-size:12px;margin:2px}.mobilebar{display:none}.status-good{color:var(--good)}.status-warn{color:var(--warn)}.status-bad{color:var(--bad)}
+    @media(max-width:767px){body{height:100vh;overflow:hidden}.app{display:block;height:calc(100vh - 67px);overflow-y:auto}.side{display:none}.main{padding:14px 14px 18px}.top{display:grid}.title h1{font-size:21px}.grid,.live-grid{grid-template-columns:1fr}.span-3,.span-4,.span-5,.span-6,.span-7,.span-8,.span-12{grid-column:span 1}.form{grid-template-columns:1fr}table{min-width:620px}.mobilebar{display:flex;position:fixed;bottom:0;left:0;right:0;background:rgba(255,255,255,.94);backdrop-filter:blur(18px);border-top:1px solid var(--line);padding:8px;gap:6px;z-index:5}.mobilebar button{flex:1;min-height:50px;padding:0 6px;font-size:12px}.actions button{flex:1 1 140px}.panel{padding:14px}}
   </style>
 </head>
 <body>
   <div class="app">
     <aside class="side">
       <div class="brand">서플라이가드</div>
-      <div class="mock">mock/demo data · no API key · live sample status: partial</div>
+      <div class="live-note" id="liveSide">실제 API 스냅샷 로딩 · 키 비노출</div>
       <div class="nav" id="nav"></div>
     </aside>
     <main class="main">
       <section class="top">
-        <div class="title"><h1>서플라이가드 — 수입의존 핵심품목 공급망 경보</h1><p>KOTRA 무역통계·국가정보·해외시장뉴스를 결합해 HS 품목별 HHI와 단일국 의존도를 계산하고 공급망 위험을 조기 경보한다. v1은 mock/demo 데이터이며 KOTRA operation 명세와 관세청 일부 샘플 호출은 별도 로컬 검증했지만, KOTRA/KIPRIS 샘플과 파일 원본값 대조는 미완료다.</p></div>
+        <div class="title"><h1>서플라이가드 — 수입의존 핵심품목 공급망 경보</h1><p>KOTRA 국가정보·해외시장뉴스 샘플을 서버 측 갱신 작업으로 실제 연결하고, 관세청 수출입실적은 기타 보조 검증으로 분리한다. 브라우저에는 키 없는 공개 스냅샷만 제공한다.</p></div>
         <div class="actions"><button id="sampleBtn">샘플</button><button class="secondary" id="saveBtn">저장</button><button class="ghost" id="resetBtn">초기화</button></div>
       </section>
       <section id="view"></section>
@@ -29,7 +29,7 @@
   </div>
   <nav class="mobilebar" id="mobilebar"></nav>
   <script>
-    const CONFIG = {"updated":"2026-07-06 20:10","name":"서플라이가드","title":"서플라이가드 — 수입의존 핵심품목 공급망 경보","one":"KOTRA 무역통계·국가정보·해외시장뉴스를 결합해 HS 품목별 HHI와 단일국 의존도를 계산하고 공급망 위험을 조기 경보한다. v1은 mock/demo 데이터이며 KOTRA operation 명세와 관세청 일부 샘플 호출은 별도 로컬 검증했지만, KOTRA/KIPRIS 샘플과 파일 원본값 대조는 미완료다.","target":"소부장 수입기업, 구매·조달팀, 산업부 공급망 정책 담당자","color":"#7c3aed","inputs":[["company","기업명","한빛소재"],["hsCode","HS 코드","280461"],["itemName","품목명","실리콘 웨이퍼 원재료"],["importTotal","월 수입액(만달러)",860],["topShare","1위 국가 비중(%)",64],["secondShare","2위 국가 비중(%)",18],["thirdShare","3위 국가 비중(%)",9],["newsHits","위험 뉴스 건수",7],["stockDays","재고일수",24],["criticality","생산 중요도(1~10)",9],["threshold","경보 임계점",70],["supplierCount","대체 공급처 수",2]],"metrics":["HHI","단일국 의존도","뉴스 리스크","재고 완충일","통합 위험점수"],"formula":"supply","data":[["한국무역현황 상세통계","KOTRA","15140428","월/분기","HS코드, 국가, 수출입액","HHI·수입의존도 계산","https://www.data.go.kr/data/15140428/fileData.do"],["국가정보","KOTRA","15034830","수시","국가, 경제, 정치, 시장정보","국가 리스크 보정","https://www.data.go.kr/data/15034830/openapi.do"],["해외시장뉴스","KOTRA","15034831","일/수시","제목, 본문, 국가, 품목","통상 리스크 키워드 탐지","https://www.data.go.kr/data/15034831/openapi.do"],["품목별 국가별 수출입실적(GW)","관세청","15100475","월","HS Code, 국가, 수출입액","정밀 검증 보조","https://www.data.go.kr/data/15100475/openapi.do"],["KIPRIS 특허정보","특허청","보조","수시","기업, 특허, 기술분류","대체 기술 후보 보조","https://www.kipris.or.kr"]],"candidates":[["280461","고순도 실리콘",91,71,12],["850760","리튬이온 배터리",84,63,8],["854231","집적회로",76,54,5],["290243","p-자일렌",68,47,4],["280530","희토류 금속",87,69,10]],"features":["입력 저장 1","샘플 불러오기 1","폼 초기화 1","KPI 재계산 1","시나리오 슬라이더 1","후보 검색 1","후보 정렬 1","후보 선택 1","상세 패널 1","점수 임계값 1","경보 판정 1","보고서 미리보기 1","보고서 다운로드 1","JSON export 1","클립보드 복사 1","QA 체크 1","데이터 출처 확인 1","mock/demo 고지 1","localStorage 복원 1","모바일 바텀탭 1","입력 저장 2","샘플 불러오기 2","폼 초기화 2","KPI 재계산 2","시나리오 슬라이더 2","후보 검색 2","후보 정렬 2","후보 선택 2","상세 패널 2","점수 임계값 2","경보 판정 2","보고서 미리보기 2","보고서 다운로드 2","JSON export 2","클립보드 복사 2","QA 체크 2","데이터 출처 확인 2","mock/demo 고지 2","localStorage 복원 2","모바일 바텀탭 2","입력 저장 3","샘플 불러오기 3","폼 초기화 3","KPI 재계산 3","시나리오 슬라이더 3","후보 검색 3","후보 정렬 3","후보 선택 3","상세 패널 3","점수 임계값 3","경보 판정 3","보고서 미리보기 3","보고서 다운로드 3","JSON export 3","클립보드 복사 3","QA 체크 3","데이터 출처 확인 3","mock/demo 고지 3","localStorage 복원 3","모바일 바텀탭 3","입력 저장 4","샘플 불러오기 4","폼 초기화 4","KPI 재계산 4","시나리오 슬라이더 4","후보 검색 4","후보 정렬 4","후보 선택 4","상세 패널 4","점수 임계값 4","경보 판정 4","보고서 미리보기 4","보고서 다운로드 4","JSON export 4","클립보드 복사 4","QA 체크 4","데이터 출처 확인 4","mock/demo 고지 4","localStorage 복원 4","모바일 바텀탭 4","입력 저장 5","샘플 불러오기 5","폼 초기화 5","KPI 재계산 5","시나리오 슬라이더 5","후보 검색 5","후보 정렬 5","후보 선택 5","상세 패널 5","점수 임계값 5","경보 판정 5","보고서 미리보기 5","보고서 다운로드 5","JSON export 5","클립보드 복사 5","QA 체크 5","데이터 출처 확인 5","mock/demo 고지 5","localStorage 복원 5","모바일 바텀탭 5","입력 저장 6","샘플 불러오기 6","폼 초기화 6","시나리오 슬라이더 6"],"storageKey":"publicdata:supplyguard:v1"};
+    const CONFIG = {"updated":"2026-07-07 00:05","name":"서플라이가드","title":"서플라이가드 — 수입의존 핵심품목 공급망 경보","one":"KOTRA 국가정보·해외시장뉴스를 실제 API로 갱신하고, 한국무역현황 상세통계는 핵심 산업부 데이터 spine으로 표시해 HS 품목별 공급망 위험 판단 근거를 제시한다. 관세청 수출입실적은 기타 보조 검증으로만 분리하며, 브라우저에는 API 키를 넣지 않고 GitHub Actions가 만든 공개 스냅샷만 읽는다.","target":"소부장 수입기업, 구매·조달팀, 산업부 공급망 정책 담당자","color":"#7c3aed","inputs":[["company","기업명","한빛소재"],["hsCode","HS 코드","280461"],["itemName","품목명","실리콘 웨이퍼 원재료"],["importTotal","월 수입액(만달러)",860],["topShare","1위 국가 비중(%)",64],["secondShare","2위 국가 비중(%)",18],["thirdShare","3위 국가 비중(%)",9],["newsHits","위험 뉴스 건수",7],["stockDays","재고일수",24],["criticality","생산 중요도(1~10)",9],["threshold","경보 임계점",70],["supplierCount","대체 공급처 수",2]],"metrics":["HHI","단일국 의존도","뉴스 리스크","재고 완충일","통합 위험점수"],"formula":"supply","data":[["한국무역현황 상세통계","KOTRA","15140428","월/분기","HS코드, 국가, 수출입액","HHI·수입의존도 계산","https://www.data.go.kr/data/15140428/fileData.do"],["국가정보","KOTRA","15034830","수시","국가, 경제, 정치, 시장정보","국가 리스크 보정","https://www.data.go.kr/data/15034830/openapi.do"],["해외시장뉴스","KOTRA","15034831","일/수시","제목, 본문, 국가, 품목","통상 리스크 키워드 탐지","https://www.data.go.kr/data/15034831/openapi.do"],["KIPRIS 특허정보","특허청","보조","수시","기업, 특허, 기술분류","대체 기술 후보 보조","https://www.kipris.or.kr"]],"candidates":[["280461","고순도 실리콘",91,71,12],["850760","리튬이온 배터리",84,63,8],["854231","집적회로",76,54,5],["290243","p-자일렌",68,47,4],["280530","희토류 금속",87,69,10]],"features":["입력 저장 1","샘플 불러오기 1","폼 초기화 1","KPI 재계산 1","시나리오 슬라이더 1","후보 검색 1","후보 정렬 1","후보 선택 1","상세 패널 1","점수 임계값 1","경보 판정 1","보고서 미리보기 1","보고서 다운로드 1","JSON export 1","클립보드 복사 1","QA 체크 1","데이터 출처 확인 1","실제 API 스냅샷 고지 1","localStorage 복원 1","모바일 바텀탭 1","입력 저장 2","샘플 불러오기 2","폼 초기화 2","KPI 재계산 2","시나리오 슬라이더 2","후보 검색 2","후보 정렬 2","후보 선택 2","상세 패널 2","점수 임계값 2","경보 판정 2","보고서 미리보기 2","보고서 다운로드 2","JSON export 2","클립보드 복사 2","QA 체크 2","데이터 출처 확인 2","실제 API 스냅샷 고지 2","localStorage 복원 2","모바일 바텀탭 2","입력 저장 3","샘플 불러오기 3","폼 초기화 3","KPI 재계산 3","시나리오 슬라이더 3","후보 검색 3","후보 정렬 3","후보 선택 3","상세 패널 3","점수 임계값 3","경보 판정 3","보고서 미리보기 3","보고서 다운로드 3","JSON export 3","클립보드 복사 3","QA 체크 3","데이터 출처 확인 3","실제 API 스냅샷 고지 3","localStorage 복원 3","모바일 바텀탭 3","입력 저장 4","샘플 불러오기 4","폼 초기화 4","KPI 재계산 4","시나리오 슬라이더 4","후보 검색 4","후보 정렬 4","후보 선택 4","상세 패널 4","점수 임계값 4","경보 판정 4","보고서 미리보기 4","보고서 다운로드 4","JSON export 4","클립보드 복사 4","QA 체크 4","데이터 출처 확인 4","실제 API 스냅샷 고지 4","localStorage 복원 4","모바일 바텀탭 4","입력 저장 5","샘플 불러오기 5","폼 초기화 5","KPI 재계산 5","시나리오 슬라이더 5","후보 검색 5","후보 정렬 5","후보 선택 5","상세 패널 5","점수 임계값 5","경보 판정 5","보고서 미리보기 5","보고서 다운로드 5","JSON export 5","클립보드 복사 5","QA 체크 5","데이터 출처 확인 5","실제 API 스냅샷 고지 5","localStorage 복원 5","모바일 바텀탭 5","입력 저장 6","샘플 불러오기 6","폼 초기화 6","시나리오 슬라이더 6"],"storageKey":"publicdata:supplyguard:v2"};
     if(!CONFIG.features.includes("KPI 재계산 6")) CONFIG.features.splice(CONFIG.features.length-1,0,"KPI 재계산 6");
     const tabs = [["overview","개요"],["inputs","입력"],["simulation","시뮬"],["candidates","후보"],["report","보고서"],["sources","출처"],["qa","QA"],["settings","설정"]];
     let current = new URLSearchParams(location.search).get("view") || "overview";
@@ -38,10 +38,39 @@
     let qa = Array.from({length:12},(_,i)=>i<6);
     const defaults = Object.fromEntries(CONFIG.inputs.map(([k,,v])=>[k,v]));
     let state = load();
+    let liveData = null;
+    let liveStatus = "loading";
     function load(){ try{return {...defaults,...JSON.parse(localStorage.getItem(CONFIG.storageKey)||"{}")}}catch{return {...defaults}} }
     function save(){ localStorage.setItem(CONFIG.storageKey, JSON.stringify(state)); toast("저장됨"); render(); }
     function toast(t){ console.log(t); }
     function num(k){ const v = Number(state[k]); return Number.isFinite(v)?v:0; }
+    async function loadLiveData(){
+      try{
+        const res = await fetch("data/supplyguard-live.json?ts="+Date.now(), {cache:"no-store"});
+        if(!res.ok) throw new Error("HTTP "+res.status);
+        liveData = await res.json();
+        liveStatus = "ready";
+        if(!localStorage.getItem(CONFIG.storageKey) && liveData.derivedInputs) state = {...state,...liveData.derivedInputs};
+      }catch(err){
+        liveStatus = "offline";
+        console.warn("live data unavailable", err);
+      }
+      render();
+    }
+    function liveLabel(){
+      if(liveStatus==="ready" && liveData) return "실제 API 갱신 완료 · "+new Date(liveData.generatedAt).toLocaleString("ko-KR");
+      if(liveStatus==="loading") return "실제 API 스냅샷 로딩 중";
+      return "API 스냅샷 미연결 · 기본 시나리오 표시";
+    }
+    function livePanel(){
+      const statusClass = liveStatus==="ready" ? "status-good" : "status-warn";
+      const checks = liveData?.checks || [];
+      const news = liveData?.kotra?.marketNews?.items || [];
+      const cards = checks.map(c=>'<div class="live-card"><span class="label">'+c.api+'</span><strong class="'+(c.result==="SAMPLE_PASS"?"status-good":"status-warn")+'">'+c.result+'</strong><div class="label">'+c.source+'</div></div>').join("");
+      const newsHtml = news.slice(0,3).map(n=>'<li>'+escapeHtml(n.title || "제목 없음")+'</li>').join("");
+      return '<div class="panel span-12 live-panel"><h2>실제 API 연결 상태</h2><p class="'+statusClass+'">'+liveLabel()+'</p><p class="label">API 키는 GitHub Actions Secret에서만 사용하며 브라우저와 공개 JSON에는 포함하지 않습니다.</p><div class="live-grid">'+(cards||'<div class="live-card"><span class="label">상태</span><strong>loading</strong></div>')+'</div>'+(newsHtml?'<h3>최근 KOTRA 해외시장뉴스 샘플</h3><ul>'+newsHtml+'</ul>':'')+'</div>';
+    }
+    function escapeHtml(value){ return String(value).replace(/[&<>"']/g, ch=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[ch])); }
     function calc(){
       let m = {};
       if(CONFIG.formula==="carbon"){
@@ -75,8 +104,9 @@
       const m=calc(); const best=CONFIG.candidates.map((r,i)=>({i,r,score:candidateScore(r)})).sort((a,b)=>b.score-a.score)[0];
       return CONFIG.name+" v1 진단 보고서\n"+
         "생성시각: "+new Date().toLocaleString("ko-KR")+"\n"+
-        "데이터 구분: mock/demo data, live API 아님\n"+
-        "검증 범위: KOTRA operation 명세 확인, 관세청 수출입실적 일부 샘플 호출 검증, KOTRA/KIPRIS 샘플 및 파일 원본값 대조 미수행\n\n"+
+        "데이터 구분: 실제 API 스냅샷 + 입력 시뮬레이션 계산\n"+
+        "API 연결: "+liveLabel()+"\n"+
+        "검증 범위: KOTRA 국가정보/해외시장뉴스 SAMPLE_PASS, 관세청 기타 보조 API SAMPLE_PASS, KIPRIS endpoint 미확정\n\n"+
         "핵심 지표\n"+Object.entries(m).map(([k,v])=>"- "+k+": "+money(v)).join("\n")+"\n\n"+
         "우선 후보: "+best.r[0]+" / "+best.r[1]+" / 점수 "+money(best.score)+"\n\n"+
         "공공데이터\n"+CONFIG.data.map(d=>"- "+d[0]+" ("+d[1]+", "+d[2]+")").join("\n");
@@ -84,17 +114,18 @@
     function reportPreview(wrap=true){ const html='<div class="panel span-12"><div class="report">'+reportText()+'</div></div>'; return wrap?'<div class="grid">'+html+'</div>':html; }
     function candidates(){ return '<div class="panel span-12"><div class="actions"><input id="search" placeholder="검색" oninput="render()"><button class="secondary" onclick="sortCandidates()">점수 정렬</button><button class="ghost" onclick="selected=(selected+1)%CONFIG.candidates.length;render()">다음 후보</button></div><div class="table-wrap"><table><thead><tr><th>후보</th><th>설명</th><th>기준점수</th><th>개선효과</th><th>투자/리스크</th><th>v1 점수</th></tr></thead><tbody>'+CONFIG.candidates.map((r,i)=>'<tr onclick="selected='+i+';render()" class="'+(selected===i?'selected':'')+'"><td>'+r[0]+'</td><td>'+r[1]+'</td><td>'+r[2]+'</td><td>'+r[3]+'</td><td>'+r[4]+'</td><td><strong>'+money(candidateScore(r))+'</strong></td></tr>').join("")+'</tbody></table></div></div>'; }
     function sortCandidates(){ CONFIG.candidates.sort((a,b)=>candidateScore(b)-candidateScore(a)); selected=0; render(); }
-    function sources(){ return '<div class="panel span-12"><h2>공공데이터 출처</h2><p class="label">v1은 mock/demo 데이터입니다. KOTRA operation 명세와 관세청 수출입실적 일부 샘플 호출은 별도 로컬 검증했지만, KOTRA/KIPRIS 샘플 호출과 파일 원본값 대조는 미완료입니다.</p><div class="source-list">'+CONFIG.data.map(d=>'<div class="source"><strong>'+d[0]+'</strong><div>'+d[1]+' · '+d[2]+' · '+d[3]+'</div><div class="label">'+d[4]+'</div><div>'+d[5]+'</div><a href="'+d[6]+'" target="_blank" rel="noreferrer">'+d[6]+'</a></div>').join("")+'</div></div>'; }
+    function sources(){ return '<div class="panel span-12"><h2>공공데이터 출처</h2><p class="label">KOTRA 국가정보·해외시장뉴스는 실제 API 샘플 응답으로 갱신합니다. 관세청 수출입실적은 기타 보조 검증으로만 분리하고, KIPRIS는 endpoint 미확정으로 보조 후보로만 표시합니다.</p><div class="source-list">'+CONFIG.data.map(d=>'<div class="source"><strong>'+d[0]+'</strong><div>'+d[1]+' · '+d[2]+' · '+d[3]+'</div><div class="label">'+d[4]+'</div><div>'+d[5]+'</div><a href="'+d[6]+'" target="_blank" rel="noreferrer">'+d[6]+'</a></div>').join("")+'</div></div>'+livePanel(); }
     function qaView(){ return '<div class="panel span-12"><h2>QA 샘플</h2>'+qa.map((v,i)=>'<label class="chip"><input type="checkbox" '+(v?'checked':'')+' onchange="qa['+i+']=this.checked;render()"> 검증 '+(i+1)+'</label>').join("")+'<p>완료 '+qa.filter(Boolean).length+' / '+qa.length+'</p></div>'; }
     function settings(){ return '<div class="grid"><div class="panel span-6"><h2>상태</h2><p>저장 키: '+CONFIG.storageKey+'</p><p>구현 기능: '+CONFIG.features.length+'개</p><p>선택 후보: '+CONFIG.candidates[selected][0]+'</p></div><div class="panel span-6"><h2>내보내기</h2><div class="actions"><button onclick="exportJson()">JSON</button><button class="secondary" onclick="downloadReport()">보고서</button><button class="ghost" onclick="copyReport()">복사</button></div></div></div>'; }
-    function exportJson(){ download("result.json", JSON.stringify({state,metrics:calc(),candidate:CONFIG.candidates[selected],mock:true},null,2)); }
+    function exportJson(){ download("result.json", JSON.stringify({state,metrics:calc(),candidate:CONFIG.candidates[selected],liveData},null,2)); }
     function downloadReport(){ download(CONFIG.name+"-report.md", reportText()); }
     function copyReport(){ navigator.clipboard?.writeText(reportText()); toast("copied"); }
     function download(name,text){ const a=document.createElement("a"); a.href=URL.createObjectURL(new Blob([text],{type:"text/plain;charset=utf-8"})); a.download=name; a.click(); URL.revokeObjectURL(a.href); }
     function render(){
       nav();
       let body="";
-      if(current==="overview") body=kpis()+'<div class="grid"><div class="panel span-7"><h2>요약</h2><p>'+CONFIG.one+'</p><p><span class="chip">mock/demo</span><span class="chip">localStorage</span><span class="chip">JSON export</span><span class="chip">responsive</span></p></div><div class="panel span-5"><h2>선정 후보</h2><strong>'+CONFIG.candidates[selected][0]+'</strong><p>'+CONFIG.candidates[selected][1]+'</p><p class="label">점수 '+money(candidateScore(CONFIG.candidates[selected]))+'</p></div></div>';
+      document.getElementById("liveSide").textContent = liveLabel();
+      if(current==="overview") body=livePanel()+kpis()+'<div class="grid"><div class="panel span-7"><h2>요약</h2><p>'+CONFIG.one+'</p><p><span class="chip">real API snapshot</span><span class="chip">key hidden</span><span class="chip">JSON export</span><span class="chip">responsive</span></p></div><div class="panel span-5"><h2>선정 후보</h2><strong>'+CONFIG.candidates[selected][0]+'</strong><p>'+CONFIG.candidates[selected][1]+'</p><p class="label">점수 '+money(candidateScore(CONFIG.candidates[selected]))+'</p></div></div>';
       if(current==="inputs") body='<div class="grid">'+inputs()+'<div data-soft class="span-12">'+softBlock()+'</div></div>';
       if(current==="simulation") body='<div class="grid">'+inputs()+kpis()+candidates()+'</div>';
       if(current==="candidates") body='<div class="grid">'+candidates()+kpis()+'</div>';
@@ -108,6 +139,7 @@
     document.getElementById("saveBtn").onclick=save;
     document.getElementById("resetBtn").onclick=()=>{localStorage.removeItem(CONFIG.storageKey);state={...defaults};render()};
     render();
+    loadLiveData();
   </script>
 </body>
 </html>
