@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "dataStatus": "관세청 보조 샘플 확인",
+  "publicStatus": "검증 샘플 반영 예시 데이터",
+  "source": "관세청 품목별 국가별 수출입실적 API 일부 샘플 응답",
+  "kotraStatus": "KOTRA 데이터는 서비스 핵심 공공데이터로 설계 반영, 샘플 호출은 별도 명세 확인 후 확장",
+  "kiprisStatus": "KIPRIS 데이터는 대체기술 보조 데이터로 설계 반영, 샘플 호출은 별도 명세 확인 후 확장",
+  "analysisPeriodLabel": "조회 기준 기간",
+  "items": [
+    {
+      "hsCode": "8542",
+      "countryCode": "US",
+      "periodLabel": "조회 기준 기간",
+      "importUsd": "227207303",
+      "exportUsd": "60050850",
+      "balanceUsd": "-167156453",
+      "source": "관세청 품목별 국가별 수출입실적 API 일부 샘플 응답"
+    }
+  ],
+  "scoreInputs": {
+    "newsHits": 7,
+    "topShare": 64,
+    "criticality": 9,
+    "supplierCount": 2,
+    "stockDays": 24
+  },
+  "limitations": [
+    "브라우저는 인증정보 없이 정적 JSON만 읽는다.",
+    "관세청 수출입실적은 기타 보조 샘플로만 사용한다.",
+    "KOTRA 한국무역현황 상세통계 원본 파일 대조와 KIPRIS 세부 호출 검증은 별도 단계다."
+  ]
+}
